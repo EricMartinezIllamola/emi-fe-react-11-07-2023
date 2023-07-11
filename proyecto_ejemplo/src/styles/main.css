@@ -1,0 +1,14 @@
+main {
+    width: 100%;
+    height: 77vh;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    margin-left: 25px;
+}
+
+p {
+    margin-left: 45px;
+}
