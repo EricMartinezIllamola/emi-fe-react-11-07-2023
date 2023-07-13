@@ -2,9 +2,9 @@ import React from 'react';
 import "../styles/perfil_usuario.css";
 
 function PerfilUsuario(props) {
-    const [edad, setEdad] = React.useState('25');
+    const [edad, setEdad] = React.useState(props.edad);
     const actualizar_edad = () => {
-        setEdad("50");
+        setEdad(29);
         };
     return (
         <div className='perfil_box'>
