@@ -1,0 +1,12 @@
+.tareas_box {
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.tareas_box ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.tareas_box h3 {
+    margin-left: 0;
+}

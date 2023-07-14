@@ -2,6 +2,8 @@ import React from 'react';
 import Article from './Article';
 import PerfilUsuario from './PerfilUsuario';
 import Calculadora from './Calculadora';
+import Lista_tareas from './Lista_tareas';
+import Formulario from './Formulario';
 import "../styles/main.css";
 
 function Main() {
@@ -18,12 +20,12 @@ function Main() {
                 <Article title={title[0]} contenido={contenido[0]} />
                 <PerfilUsuario nombre={nombre} imagen={imagen}  edad={edad}/>
                 <Calculadora />
+                <Lista_tareas />
+                <Formulario />
             </React.StrictMode>
         </main>
     );
 }
-
-
 
 export default Main;
 
